@@ -6,7 +6,7 @@
 
 body{
     min-height: 100vh;
-    background-image: url(src/background.avif);
+    background-image: url(src/background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,14 +14,23 @@ body{
     color: white;
 }
 
+h1{
+    font-size: 48px;
+    color: black;
+}
+
 .root{
-    background-color:tomato;
+    background-color: #ffffff;
+    background-image: 
+        linear-gradient(to right, #e0e0e0 1px, transparent 1px),
+        linear-gradient(to bottom, #e0e0e0 1px, transparent 1px);
+    background-size: 20px 20px;
     padding: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid black;
+    border: 4px solid black;
     border-radius: 16px;
     margin: 0 8rem;
 }
@@ -31,6 +40,8 @@ body{
     background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
+    border: 4px solid black;
+    overflow: hidden;
 }
 
 .right{
@@ -39,9 +50,44 @@ body{
     justify-content: center;
     gap: 2rem;
 }
-button{
+
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 100px ;
+}
+.btn{
     padding: 8px;
     width: 100px;
     border: none;
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: black;
+    color: whitesmoke;
 
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn:active{
+    background-color: white;
+    color: black;
+}
+
+.colors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.color{
+    height: 30px;
+    width: 30px;
+    
 }
