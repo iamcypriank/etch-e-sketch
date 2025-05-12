@@ -17,6 +17,10 @@ function initColorButton(){
         button.style.backgroundColor=`${colors[i]}`
         i++;
     })
+
+    let btn = document.querySelector(".color")
+    btn.style.height="32px";
+    btn.style.width="80px";
 }
 
 

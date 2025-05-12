@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
 }
 
 body{
     min-height: 100vh;
     background-image: url(src/background2.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -63,21 +65,21 @@ h1{
     border: none;
     border-radius: 12px;
     padding: 1rem;
-    background-color: black;
+    background-color: #DE153D;
     color: whitesmoke;
 
 }
 
-
 .btn:hover{
     background-color: white;
-    color: black;
+    color: #DE153D;
 }
 
 .btn:active{
     background-color: white;
-    color: black;
+    color: #DE153D;
 }
+
 
 .colors{
     display: flex;
@@ -90,4 +92,11 @@ h1{
     height: 30px;
     width: 30px;
     
+}
+.title{
+    text-align: center;
+}
+
+button{
+    font-size: 12px;
 }
