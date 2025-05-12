@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(src/background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem;
+    color: white;
+}
+
+.root{
+    background-color:tomato;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 0 8rem;
+}
+.art-board{
+    height: 600px;
+    width: 600px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+button{
+    padding: 8px;
+    width: 100px;
+    border: none;
+
+}
